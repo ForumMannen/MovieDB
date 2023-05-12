@@ -1,16 +1,18 @@
-import NavLinks from "./NavLinks";
-import MyMovies from "./MyMovies";
-import "./header.css";
+import NavLinks from "../NavLinks/NavLinks";
+import MyMovies from "../MyMovies/MyMovies";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="headerContent">
-      <h1>MovieDB</h1>
+    <header>
+      <h1>
+        Movie<span>DB</span>
+      </h1>
       <div className="rightContent">
         <NavLinks />
         <MyMovies />
       </div>
-    </div>
+    </header>
   );
 };
 

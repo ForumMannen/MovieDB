@@ -1,8 +1,10 @@
+import "./Footer.css";
+
 const Footer = () => {
   return (
-    <div>
-      <p>© Copyright MovieDB 2023</p>
-    </div>
+    <footer>
+      <p>&copy; Copyright MovieDB 2023</p>
+    </footer>
   );
 };
 
