@@ -1,0 +1,9 @@
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+}
+
+.rightContent {
+  display: flex;
+}

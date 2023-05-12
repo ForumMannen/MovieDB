@@ -1,12 +1,15 @@
 import NavLinks from "./NavLinks";
 import MyMovies from "./MyMovies";
+import "./header.css";
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
-      <NavLinks />
-      <MyMovies />
+    <div className="headerContent">
+      <h1>MovieDB</h1>
+      <div className="rightContent">
+        <NavLinks />
+        <MyMovies />
+      </div>
     </div>
   );
 };
