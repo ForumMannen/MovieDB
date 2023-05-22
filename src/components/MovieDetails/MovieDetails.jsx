@@ -1,11 +1,11 @@
 import MarkAsSeenBtn from "../MarkAsSeenBtn/MarkAsSeenBtn";
 
-const MovieDetails = () => {
+function MovieDetails() {
   return (
     <div>
       <MarkAsSeenBtn />
     </div>
   );
-};
+}
 
 export default MovieDetails;
